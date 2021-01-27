@@ -1,0 +1,18 @@
+#1
+sudo docker build -t qt-tf-v1 .
+
+#2
+sudo docker run -it -v :/datafolder qt-tf-v1
+
+#3
+cd DockerDir1
+
+#4
+cd build-Custering-Desktop_Qt_5_9_9_GCC_64bit-Debug/
+
+#5
+./Custering 
+
+#6- Give the Images Folder Path which is added in Docker
+/home/user/DockerDir1/TestData
+
